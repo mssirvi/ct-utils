@@ -1,1 +1,1 @@
-Scripts for day to day commercetools project.
+# Utility Scripts for day to day commercetools project.

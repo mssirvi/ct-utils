@@ -3,7 +3,7 @@ import { targetApiRoot } from "./src/targetClient.js"
 import { createSyncTypes } from '@commercetools/sync-actions'
 
 
-const typesArray = ["user", "punchoutUser", "addressAttributes", "lineItemsFields", "cartFields","shippingCustomFields","purchaseOrderPayment","checkOrMoneyOrderPayment","giftCertificatePayment","cruzCreditPayment","creditCardPayment","paypalPayment"];
+const typesArray = ["type1", "type2"];
 async function getTypes() {
     return await apiRoot.types().get().execute();
 }
